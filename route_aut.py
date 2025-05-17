@@ -20,6 +20,8 @@ users=db.users
 screte_key=os.getenv('SCRETE_KEY')
 
 
+
+
 @auth.route('/register', methods=["POST"])
 def Register():
     data = request.json
