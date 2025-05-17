@@ -1,5 +1,5 @@
 from textwrap import wrap
-from flask import Blueprint, jsonify, request;
+from flask import Flask, Blueprint, jsonify, request;
 from werkzeug.security import generate_password_hash, check_password_hash;
 from dotenv import load_dotenv;
 from flask_cors import CORS;
